@@ -1,0 +1,17 @@
+1)mkdir DockerFiles
+2)gedit file.c
+3)gedit Dockerfile
+
+***Inside Docker File***
+FROM ubuntu
+maintainer "shwetagote"
+RUN apt-get update
+RUN mkdir /abc
+COPY . /abc
+cmd ["/abc/a.out"]
+
+****After that docker buil***
+docker build -t myimage .
+docker run --name mycontainer -it myimage
+
+
