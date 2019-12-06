@@ -1,0 +1,7 @@
+shweta-0696
+new gmail account for github:
+Shweta Gote
+shwetagote0696@gmail.com
+same pass
+as shwetagote8@gmail.com
+wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins.io/redhat-stable/jenkins.repo

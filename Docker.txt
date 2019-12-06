@@ -1,0 +1,12 @@
+1)sudo apt-get update
+2)sudo apt-get install docker.io
+3)systemctl start docker
+4)systemctl status docker
+5)docker run hello-world
+6)docker pull centos
+7)docker images
+8)docker run centos
+9)docker run -it centos(for interactive mode)
+10)yum install mariadb-server
+11)exit
+12)docker commit -m "added mariadb-server" -a "somename" 59839a1b7de2 root/centos-mariadb
